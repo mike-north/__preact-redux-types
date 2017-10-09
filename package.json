@@ -1,0 +1,11 @@
+{
+  "name": "reduxbug",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "preact": "^8.2.5",
+    "preact-redux": "^2.0.3",
+    "typescript": "^2.5.3"
+  }
+}

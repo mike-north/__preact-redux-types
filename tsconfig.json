@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+      "target": "es5",
+      "jsx": "react",
+      "jsxFactory": "h",
+      "noImplicitAny": true,
+      "strict": true,
+      "outDir": "out"
+  },
+  "include": [
+      "src/**/*"
+  ]
+}
