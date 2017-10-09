@@ -11,6 +11,7 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 var preact_1 = require("preact");
+var preact_redux_1 = require("preact-redux");
 var App = /** @class */ (function (_super) {
     __extends(App, _super);
     function App() {
@@ -21,4 +22,8 @@ var App = /** @class */ (function (_super) {
     };
     return App;
 }(preact_1.Component));
+var mapStateToProps = function (state) { return ({
+    todos: state.todos
+}); };
+var ConnectedApp = preact_redux_1.connect(mapStateToProps)(App);
 exports.default = App;

@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
+    "@types/redux": "^3.6.0",
     "preact": "^8.2.5",
     "preact-redux": "^2.0.3",
     "typescript": "^2.5.3"

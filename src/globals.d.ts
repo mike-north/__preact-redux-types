@@ -1,0 +1,1 @@
+declare var devToolsExtension: (...args: any[]) => any;
